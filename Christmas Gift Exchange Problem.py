@@ -47,14 +47,6 @@ movenumbers = np.arange(min(sample),max(sample)+1,1)
 plt.scatter(x=movenumbers,y=Etotals)
 
 #sort the number of net moves in order of best to worst 
-#sortingarray = [[Etotals],
-#                [movenumbers]]
-#print(sortingarray)
-#ind = np.argsort(sortingarray, axis = 1)
-#print(ind)
-#ind = np.argsort(Etotals, axis = 0)
-#print(ind)
-
 tupleList = []
 for i in range (0,len(Etotals)):
     tupleList.append((Etotals[i], movenumbers[i]))
@@ -67,7 +59,3 @@ for i in tupleList:
     besttoworstMoveNumbers.append(i[1])
     
 print(besttoworstMoveNumbers)
-
-
-
-
