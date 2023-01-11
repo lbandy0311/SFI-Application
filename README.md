@@ -22,5 +22,7 @@ I don't know much about the probability distribution that describes the likeliho
 Since there is a hard limit on the bottom (no 1- or 2-player games allowed), but the upper limit of players is a bit more ambiguous, I would guess that the distribution has a right skew. 
 
 I first did this problem in Excel, where I drew some probability distributions to test the concept of the calculations. When moving to python, I decided it was easiest just to start with a normal distribution, even though I'm pretty convinced this distribution would really have a right skew. 
+In the future I would potentially like to try this with more realistic distributions, but the result is always an element-wise multiplication of the vector containing the probabilities with the vector containing the number of bad cases possible for each net number of moves. 
+It may be interesting at some point to collect data on group sizes, but this task may not be feasible since this game is typcially only played around winter holidays, and it would be difficult to get enough accurate responses. 
 
 Enjoy!
