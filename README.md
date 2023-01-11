@@ -23,4 +23,4 @@ Since there is a hard limit on the bottom (no 1- or 2-player games allowed), but
 
 I first did this problem in Excel, where I drew some probability distributions to test the concept of the calculations. When moving to python, I decided it was easiest just to start with a normal distribution, even though I'm pretty convinced this distribution would really have a right skew. 
 
-
+Enjoy!
